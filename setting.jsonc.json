@@ -1,0 +1,84 @@
+{
+  // 主题
+  "workbench.colorTheme": "Dracula Soft",
+  // 文件图标主题
+  "workbench.iconTheme": "material-icon-theme",
+  // 窗口缩放大小
+  "window.zoomLevel": 1,
+  // 禁止从文件中读取tab大小
+  "editor.detectIndentation": false,
+  // tab 大小
+  "editor.tabSize": 2,
+  // 保存自动格式化
+  "editor.formatOnSave": true,
+  // 自动保存
+  "files.autoSave": "onFocusChange",
+  // 自动保存间隔ms,files.autoSave 为 afterDelay 才生效
+  "files.autoSaveDelay": 1000,
+  // 编辑器将在视区宽度换行
+  "editor.wordWrap": "on",
+  // 按下tab的时候进行补全
+  "editor.tabCompletion": "on",
+  // 在保存时候运行的代码操作类型
+  "editor.codeActionsOnSave": {
+    // 保存时整理 import 导入语句
+    "source.organizeImports": true
+  },
+  // 控制行号的显示
+  "editor.lineNumbers": "on",
+  // 启用后，按下 TAB 键，将展开 Emmet 缩写。
+  "emmet.triggerExpansionOnTab": true,
+  // 将可能的 Emmet 缩写作为建议进行显示。
+  "emmet.showAbbreviationSuggestions": true,
+  // 以建议的形式显示展开的 Emmet 缩写。
+  "emmet.showExpandedAbbreviation": "always",
+  // 在默认不受支持的语言中启用 Emmet 缩写
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // 在使用搜索功能时，将这些文件夹/文件排除在外
+  "search.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.vscode": true
+  },
+  // 这些文件将不会显示在工作空间中
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.vscode": true
+  },
+  // 设置编辑器的默认格式化程序
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 编辑器每行的长度，默认80
+  "prettier.printWidth": 80,
+  //是否使用分号
+  "prettier.semi": true,
+  // 是否使用单引号
+  "prettier.singleQuote": true,
+  /**
+   * 对象属性的引号使用
+   *
+   * as-needed 仅在需要的时候使用
+   * consistent 有一个属性需要引号，就都需要引号
+   * preserve 保留用户输入的情况
+   * */
+  "prettier.quoteProps": "consistent",
+  /**
+   * 字面量对象括号中的空格
+   *
+   * true - Example: { foo: bar }.
+   * false - Example: {foo: bar}.
+   * */
+  "prettier.bracketSpacing": true,
+  /**
+   *  箭头函数中的括号
+   *
+   * “avoid” - 在有需要的时候使用. Example: x => x
+   * “always” - 一直使用. Example: (x) => x
+   * */
+  "prettier.arrowParens": "avoid"
+}
