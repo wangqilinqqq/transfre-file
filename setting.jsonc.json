@@ -80,5 +80,9 @@
    * “avoid” - 在有需要的时候使用. Example: x => x
    * “always” - 一直使用. Example: (x) => x
    * */
-  "prettier.arrowParens": "avoid"
+  "prettier.arrowParens": "avoid",
+  // 在jsx中把'>' 是否单独放一行
+  "prettier.jsxBracketSameLine": false,
+  // 在jsx中使用单引号代替双引号
+  "prettier.jsxSingleQuote": false,
 }
